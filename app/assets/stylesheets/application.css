@@ -1,15 +1,96 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+#no-border-radius {
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+@font-face {
+	font-family: "BebasNeue";
+	src: url("BebasNeue Regular.otf");
+}
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@font-face {
+	font-family: "Raleway";
+	src: url("Raleway-Regular.otf");
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body { 
+	font-family: "Raleway";
+	font-size: 20px; 
+	color: #242424;
+	overflow-x: hidden;
+}
+h1 {
+	font-family:"BebasNeue";
+	font-size: 50px;
+}
+a:hover{
+	color:#62B424;
+}
+a:link{
+	color:#75E12D;
+}
+
+a:visited{
+	color:#75E12D;
+}
+.thumbnail{
+	border-color:#B1E191;
+}
+.thumbnail:hover{
+	border: 5px;
+}
+.navbar-top{
+	padding: 0px;
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-family: "BebasNeue";
+}
+.btn-default{
+	font-size:18px;
+}
+.btn-success{
+	background-color: #75E12D;
+	border-color: #326013;
+	border: 10px;
+	font-size: 30px;
+
+}
+.btn-success:hover{
+	background-color: #62B424;
+}
+#copyright-text{
+	color: #A7A7A7;
+	font-size: 16px;
+}
+.blog-title{
+	font-size:72px;
+}
+.blog-description{
+	color: #A7A7A7;
+}
+#full-wrapper{ 
+  min-height: 100%; 
+  position: relative; 
+} 
+ 
+#full-header{ 
+ 
+} 
+ 
+#full-content{ 
+  padding-bottom: 90px; 
+} 
+ 
+#full-footer{ 
+  width: 100%; 
+  height: 25px; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+}

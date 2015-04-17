@@ -8,6 +8,13 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  match '/about', to: "welcome#about", via: :get
+  match '/art', to: "welcome#art", via: :get
+  match '/android', to: "welcome#android", via: :get
+  match '/blog', to: "welcome#blog", via: :get
+  match '/contact', to: "welcome#contact", via: :get
+  match '/index', to: "welcome#index", via: :get
+  match '/java', to: "welcome#java", via: :get
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
