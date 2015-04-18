@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CATNIP.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="row">
+		<div class="col-md-2">
+
+		</div>
+		<div class="col-md-8">
+			<h1>Contact Us</h1> <br/>
+			<p>Tell us what we can improve! Contact us either through <a href="http://www.Facebook.com">Facebook</a>, <a href="http://www.twitter.com">Twitter</a>, or through the below form.</p>
+			<div class="col-md-3">
+				<%= image_tag "AboutUs.png", height: '150', width: '150' %>
+			</div>
+			<div class="col-md-8">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Name</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Email Address</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Question or Comment</label>
+						<textarea class="form-control" rows="5" placeholder="Enter Question or Comment"></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-7">
+			<a href="/contactsuccess"><button type="button" class="btn btn-success" style="float:right">Submit</button></a>
+		</div>
+	</div>
+	<br/><br/><br/>
+
+	<div style="position: relative">
+		<p style="position: absolute; bottom: 0; width:100%; text-align: center" id="copyright-text"> CATNIP 	&copy;2014
+		</p>
+	</div>
+</body>
+
+
+</html>

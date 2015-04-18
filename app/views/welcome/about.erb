@@ -11,73 +11,24 @@
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <container>
-<body>
-	<div class = "row">
-		<div class = "col-md-12">
-			<nav class="navbar navbar-default navbar-top" id="no-border-radius">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-							<li><a href="#"></a></li>
-							<li><a href="Index.html">Home</a></li>
-							<li class = "active"><a href="About.html"></span>About</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="Android.html">Android Projects</a></li>
-									<li><a href="Java.html">Java Applets</a></li>
-								</ul>
-							</li>
-							<li><a href="Blog.html">Blog</a></li>
-							<li><a href="Art.html">Art</a></li>
-							<li><a href="Contact.html">Contact Us</a></li>
-						</ul>
-						<form class="navbar-form navbar-right" role="search">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>
-							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Submit</button>
-						</form>
-
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<center><img src="websitelogo.png" class = "img-responsive" alt="website title"></center>
-		</div>
-
-	</div>
-	<div class="row">
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-8">
-			<h1>Who are we?</h1><br/>
+	<body>
+		<div class="row">
 			<div class="col-md-2">
-				<img src="loadingscreen.png" height="150" width="150" align="right">
 			</div>
-			<div class="col-md-10">
-				<br/><p>CATNIP is a coding project created by a Garnet Valley senior student, that will involve creating Java Applets and Android Apps, as well as creating the art for these games. The goal of the website is to practice skills as well as share projects with the world in order to improve. If you're interested in seeing these projects, check out the <a href="Projects.html">Projects</a> page. </p>
+			<div class="col-md-8">
+				<h1>Who are we?</h1><br/>
+				<div class="col-md-2">
+					<%= image_tag "loadingscreen.png", height: '150', width: '150' %>
+				</div>
+				<div class="col-md-10">
+					<br/><p>CATNIP is a coding project created by a Garnet Valley senior student, that will involve creating Java Applets and Android Apps, as well as creating the art for these games. The goal of the website is to practice skills as well as share projects with the world in order to improve. If you're interested in seeing these projects, check out the <a href="Projects.html">Projects</a> page. </p>
+				</div>
 			</div>
 		</div>
-	</div>
 	</body>
 	<div style="position: relative">
-            <p style="position: fixed; bottom: 0; width:100%; text-align: center" id="copyright-text"> CATNIP 	&copy;2014
-            </p>
-    </div>
+		<p style="position: fixed; bottom: 0; width:100%; text-align: center" id="copyright-text"> CATNIP 	&copy;2014
+		</p>
+	</div>
 </container>
 </html>

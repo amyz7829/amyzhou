@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RubyGettingStarted</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>RubyGettingStarted</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
 </head>
 <body>
-<div class = "row">
+	<div class = "row">
 		<div class = "col-md-12">
 			<nav class="navbar navbar-default navbar-top" id="no-border-radius">
 				<div class="container-fluid">
@@ -51,12 +51,22 @@
 		</div>
 	</div>
 	<div class="row">
-			<div class="col-md-12">
-				<center><%= image_tag "websitelogo.png", class: 'img-responsive'%></center>
-			</div>
-
+		<div class="col-md-12">
+			<center><%= image_tag "websitelogo.png", class: 'img-responsive'%></center>
 		</div>
-<%= yield %>
 
+	</div>
+	<%= yield %>
+	<div id="full-footer">
+		<footer> <div id="footer">
+			<container>
+				<div class="row">
+					<div class="col-md-12">
+						<p style="text-align: center" id="copyright-text"> CATNIP 	&copy;2014</p>
+					</div>
+				</div>
+			</container>
+		</div></footer>
+	</div>
 </body>
 </html>

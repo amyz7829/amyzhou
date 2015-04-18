@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   match '/contact', to: "welcome#contact", via: :get
   match '/index', to: "welcome#index", via: :get
   match '/java', to: "welcome#java", via: :get
+  match '/contactsuccess', to: "welcome#contactsuccess", via: :get
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

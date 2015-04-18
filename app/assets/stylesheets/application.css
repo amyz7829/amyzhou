@@ -8,8 +8,6 @@
 	font-family: "BebasNeue";
 	src: url("BebasNeue Regular.otf");
 }
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
 @font-face {
 	font-family: "Raleway";
 	src: url("Raleway-Regular.otf");
@@ -26,7 +24,7 @@ body {
 	overflow-x: hidden;
 }
 h1 {
-	font-family:"BebasNeue";
+	font-family:"Play";
 	font-size: 50px;
 }
 a:hover{
@@ -49,7 +47,7 @@ a:visited{
 	padding: 0px;
 	margin-bottom: 0px;
 	font-size: 24px;
-	font-family: "BebasNeue";
+	font-family: "Play";
 }
 .btn-default{
 	font-size:18px;
