@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'puma', group: [:production]
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
